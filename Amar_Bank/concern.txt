@@ -1,0 +1,2 @@
+1. setelah klik button masuk, page ini tidak dapat di inspect element. saya sudah coba menggunakan katalon dan appium tetap tidak bisa jadi saya klik manual untuk menjalankan automationnya terbentur waktu pengerjaan juga
+2. setelah klik selanjutnya dan ok mengerti, terdapat text pop up cari lebih mudah di dekat field search, itu juga tidak dapat di klik auto elementnya. harus di klik manual untuk melanjutkan automation
