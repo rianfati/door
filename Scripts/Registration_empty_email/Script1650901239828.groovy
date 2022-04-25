@@ -21,7 +21,7 @@ Mobile.tap(findTestObject('mobile/Door_registration/android.widget.TextView0 - N
 
 Mobile.setText(findTestObject('mobile/Door_registration/android.widget.EditText0'), 'admin', 0)
 
-Mobile.setText(findTestObject('mobile/Door_registration/android.widget.EditText0 (1)'), 'admin@mail.com', 0)
+Mobile.setText(findTestObject('mobile/Door_registration/android.widget.EditText0 (1)'), '', 0)
 
 Mobile.setText(findTestObject('mobile/Door_registration/android.widget.EditText0 (2)'), 'password123', 0)
 
@@ -29,16 +29,6 @@ Mobile.setText(findTestObject('mobile/Door_registration/android.widget.EditText0
 
 Mobile.tap(findTestObject('mobile/Door_registration/android.widget.Button0 - REGISTER'), 0)
 
-Mobile.scrollToText('Already a member? Login')
-
-Mobile.tap(findTestObject('mobile/Door_registration/android.widget.TextView0 - Already a member Login'), 0)
-
-Mobile.setText(findTestObject('mobile/Door_login/login_field'), 'admin@mail.com', 0)
-
-Mobile.setText(findTestObject('mobile/Door_login/password_field'), 'password', 0)
-
-Mobile.tap(findTestObject('mobile/Door_login/android.widget.Button0 - LOGIN'), 0)
-
-Mobile.verifyElementExist(findTestObject('mobile/Door_registration/android.widget.TextView0 - Android NewLine Learning'), 0)
+Mobile.verifyElementExist(findTestObject('mobile/Door_registration/empty_email_alert'), 0)
 
 

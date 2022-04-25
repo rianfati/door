@@ -39,6 +39,6 @@ Mobile.setText(findTestObject('mobile/Door_login/password_field'), 'password', 0
 
 Mobile.tap(findTestObject('mobile/Door_login/android.widget.Button0 - LOGIN'), 0)
 
-Mobile.verifyElementExist(findTestObject('mobile/Door_registration/android.widget.TextView0 - Android NewLine Learning'), 0)
+Mobile.verifyElementExist(findTestObject('mobile/Door_registration/wrong_password'), 0)
 
 

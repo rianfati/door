@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registration_with_already_registered_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0f78819-f7b6-405d-97b8-2ab689021753</testCaseGuid>
+</TestCaseEntity>
