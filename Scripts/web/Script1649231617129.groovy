@@ -19,28 +19,28 @@ WebUI.openBrowser('http://demo.guru99.com/test/newtours/register.php')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('web/FirstName'), 'Budi')
+WebUI.setText(findTestObject('null'), 'Budi')
 
-WebUI.setText(findTestObject('web/LastName'), 'Anduk')
+WebUI.setText(findTestObject('null'), 'Anduk')
 
-WebUI.setText(findTestObject('web/Phone'), '0872345667')
+WebUI.setText(findTestObject('null'), '0872345667')
 
-WebUI.setText(findTestObject('web/Email'), 'user.mail@mail.com')
+WebUI.setText(findTestObject('null'), 'user.mail@mail.com')
 
-WebUI.setText(findTestObject('web/Address'), 'jalan mawar')
+WebUI.setText(findTestObject('null'), 'jalan mawar')
 
-WebUI.setText(findTestObject('web/City'), 'Bogor')
+WebUI.setText(findTestObject('null'), 'Bogor')
 
-WebUI.setText(findTestObject('web/Province'), 'Jawa Barat')
+WebUI.setText(findTestObject('null'), 'Jawa Barat')
 
-WebUI.setText(findTestObject('web/Postal'), '83233')
+WebUI.setText(findTestObject('null'), '83233')
 
-WebUI.selectOptionByLabel(findTestObject('web/Country'), 'INDONESIA', false)
+WebUI.selectOptionByLabel(findTestObject('null'), 'INDONESIA', false)
 
-WebUI.setText(findTestObject('web/UserName'), 'testuser1')
+WebUI.setText(findTestObject('null'), 'testuser1')
 
-WebUI.setText(findTestObject('web/Password'), 'Test123!')
+WebUI.setText(findTestObject('null'), 'Test123!')
 
-WebUI.setText(findTestObject('web/ConfirmPassword'), 'Test123!')
+WebUI.setText(findTestObject('null'), 'Test123!')
 
-WebUI.click(findTestObject('web/Submit'))
+WebUI.click(findTestObject('null'))
