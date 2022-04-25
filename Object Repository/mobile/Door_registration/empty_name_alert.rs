@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Wrong Email or Password' or . = 'Wrong Email or Password')]</value>
+         <value>//*[(text() = 'Enter Full Name' or . = 'Enter Full Name')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Wrong Email or Password</value>
+      <value>Enter Full Name</value>
    </webElementProperties>
 </WebElementEntity>
